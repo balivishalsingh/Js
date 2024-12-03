@@ -1,8 +1,17 @@
-console.log("Program of Table");
-var x=2;
-var y=1;
-while(y<=10)
+// var x=5;
+// var y=1;
+// for(y=1; y<=10; y++)
+// {
+//     console.log(x,"*",y,"=",x*y);
+// }
+function displaytable(x)
 {
-    console.log(x,"*",y,"=",x*y);
-    y++;
+    
+    for(y=1; y<=10; y++)
+    {
+        console.log(x,"*",y,"=",x*y);
+    }
 }
+
+console.log("fuction program");
+displaytable(2); 
