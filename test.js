@@ -1,17 +1,12 @@
-// var x=5;
-// var y=1;
-// for(y=1; y<=10; y++)
-// {
-//     console.log(x,"*",y,"=",x*y);
-// }
-function displaytable(x)
+console.log("Program of Adding")
+function sum(x,y)
 {
-    
-    for(y=1; y<=10; y++)
-    {
-        console.log(x,"*",y,"=",x*y);
-    }
+    console.log("sum :",x+y);
 }
 
-console.log("fuction program");
-displaytable(2); 
+console.log("zlc docslisc zi isc ucozc uc zdcj");
+    sum(25,30);
+
+console.log("zlc docslisc zi isc ucozc uc zdcj");
+
+    sum(50,150);
