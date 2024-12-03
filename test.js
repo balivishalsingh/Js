@@ -1,8 +1,8 @@
-console.log("This is going to be Ifinite");
-var x;
-x = 10;
-while(x<13)
+console.log("Program of Table");
+var x=2;
+var y=1;
+while(y<=10)
 {
-    console.log("press ctrl + c")
-
+    console.log(x,"*",y,"=",x*y);
+    y++;
 }
