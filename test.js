@@ -1,12 +1,22 @@
-console.log("Program of Adding")
-function sum(x,y)
+// 1st way to create Function
+// function testing()
+// {
+//     console.log("One way to define Function");
+// }
+// testing();
+
+// Second way to define Function
+
+// const testing = function()
+// {
+//     console.log("One way to define Function");
+// }
+// testing();
+
+// Third way to define function
+
+const testing=()=>
 {
-    console.log("sum :",x+y);
+    console.log("One way to define Function");
 }
-
-console.log("zlc docslisc zi isc ucozc uc zdcj");
-    sum(25,30);
-
-console.log("zlc docslisc zi isc ucozc uc zdcj");
-
-    sum(50,150);
+testing();
