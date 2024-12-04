@@ -1,4 +1,7 @@
-const numbersort = [25,85,51,65,43,78]
-console.log(numbersort.sort());
-numbersort.reverse();
-console.log(numbersort);
+const number = [3,5,7,6];
+const newnumber = number.map(function(value)
+{
+    return value*2;
+})
+console.log(number);
+console.log(newnumber);
