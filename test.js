@@ -1,22 +1,8 @@
-// 1st way to create Function
-// function testing()
-// {
-//     console.log("One way to define Function");
-// }
-// testing();
-
-// Second way to define Function
-
-// const testing = function()
-// {
-//     console.log("One way to define Function");
-// }
-// testing();
-
-// Third way to define function
-
-const testing=()=>
+const student = 
 {
-    console.log("One way to define Function");
+    firstName:"Aman",
+    lastName:"singh",
+    dob:"20th april",
+    pinCode:254983  
 }
-testing();
+console.log(student["dob"]);
