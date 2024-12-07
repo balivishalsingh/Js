@@ -1,12 +1,16 @@
-function loginuser(x)
+let myPromise = new Promise((resolve,reject)=>
 {
-    console.log("user logged in");
-    x();
-}
-
-function displayUser()
-{
-    console.log("Welcome Shivam");
-}
-
-loginuser(displayUser);
+    let x = 1;
+    if(x==1)
+    {
+        resolve('ok done');
+    }
+    else{
+        reject('sorry fail')
+    }
+})
+myPromise.then((res)=>{
+    console.log(res);
+}).catch((err)=>{
+    console.log(err);
+})
