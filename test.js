@@ -8,13 +8,16 @@ class student
 
     displayFullname()
 {
-    console.log(this.firstName + " " + this.lastName);
+    return (this.firstName + " " + this.lastName);
 }
 }
 
 
 const m1 = new student("Akash","Singh");
 const m2 = new student("Akansha","Raput");
-m1.displayFullname();
-m2.displayFullname();
+const name1 = m1.displayFullname();
+const name2 = m2.displayFullname();
+console.log(name1);
+console.log(name2);
+
 
