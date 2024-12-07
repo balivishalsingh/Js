@@ -1,7 +1,20 @@
-const number = [3,5,7,6];
-const newnumber = number.map(function(value)
+class student
 {
-    return value*2;
-})
-console.log(number);
-console.log(newnumber);
+    constructor(firstName,lastName)
+    {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    displayFullname()
+{
+    console.log(this.firstName + " " + this.lastName);
+}
+}
+
+
+const m1 = new student("Akash","Singh");
+const m2 = new student("Akansha","Raput");
+m1.displayFullname();
+m2.displayFullname();
+
