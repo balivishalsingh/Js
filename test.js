@@ -1,5 +1,12 @@
-console.log("what");
-setTimeout(function(){
-    console.log("hello")
-},5000)
-console.log("code")
+function loginuser(x)
+{
+    console.log("user logged in");
+    x();
+}
+
+function displayUser()
+{
+    console.log("Welcome Shivam");
+}
+
+loginuser(displayUser);
