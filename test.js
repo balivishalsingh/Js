@@ -1,10 +1,5 @@
-switch(2)
-{
-    case 1:
-    console.log("switch");
-    case 2:
-        console.log("Swith");
-     case 3:
-        console.log("Stch");
-
-}
+console.log("what");
+setTimeout(function(){
+    console.log("hello")
+},5000)
+console.log("code")
