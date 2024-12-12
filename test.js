@@ -1,7 +1,5 @@
-function renamed ()
+function brick ()
 {
-    const x = document.querySelector(".heading");
-    x.style.color = "white";
-    x.style.backgroundColor = "red";
-    x.innerHTML = "File Renamed"
+    let x = document.querySelector("#firstName");
+    console.log(x.value);
 }
